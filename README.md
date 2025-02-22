@@ -88,48 +88,6 @@ When you run your project, **ascii-art-say** will:
 4. Format the art and messages based on your options (e.g., padding, maximum message width, centering).
 5. Display the resulting output on the console as a startup message.
 
-## Example of Execution
-
-Assume your project root contains:
-
-**ascii-art-say.config.json:**
-
-```json
-{
-  "asciiArt": "",
-  "asciiArtPath": "./ascii-art.txt",
-  "messages": [
-    "Hello my friend! Welcome on board!",
-    "This is your ASCII image!",
-    "enjoy!"
-  ],
-  "options": {
-    "padding": 2,
-    "maxMessageWidth": 35
-  }
-}
-```
-
-**ascii-art.txt:**  
-_(Contains your full ASCII art.)_
-
-When you start your application (e.g., with `npm start`), the library will load your configuration, read the file `ascii-art.txt`, and display the art with your messages formatted accordingly.
-
-**return terminal**
-
-```
-⠄⠄⠄⠄⣠⣴⣿⣿⣿⣷⣦⡠⣴⣶⣶⣶⣦⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄  Hello my friend! Welcome on board!
-⠄⠄⠄⣴⣿⣿⣫⣭⣭⣭⣭⣥⢹⣟⣛⣛⣛⣃⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄       This is your ASCII image!
-⠄⣠⢸⣿⣿⣿⣿⢯⡓⢻⠿⠿⠷⡜⣯⠭⢽⠿⠯⠽⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄                enjoy!
-⣼⣿⣾⣿⣿⣿⣥⣝⠂⠐⠈⢸⠿⢆⠱⠯⠄⠈⠸⣛⡒⠄⠄⠄⠄⠄⠄⠄⠄⠄
-⣿⣿⣿⣿⣿⣿⣿⣶⣶⣭⡭⢟⣲⣶⡿⠿⠿⠿⠿⠋⠄⠄⣴⠶⠶⠶⠶⠶⢶⡀
-⣿⣿⣿⣿⣿⢟⣛⠿⢿⣷⣾⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⢰⠇⠄⠄⠄⠄⠄⠈⣧
-⣿⣿⣿⣿⣷⡹⣭⣛⠳⠶⠬⠭⢭⣝⣛⣛⣛⣫⣭⡥⠄⠸⡄⣶⣶⣾⣿⣿⢇⡟
-⠿⣿⣿⣿⣿⣿⣦⣭⣛⣛⡛⠳⠶⠶⠶⣶⣶⣶⠶⠄⠄⠄⠙⠮⣽⣛⣫⡵⠊⠁
-⣍⡲⠮⣍⣙⣛⣛⡻⠿⠿⠿⠿⠿⠿⠿⠖⠂⠄⠄⠄⠄⠄⠄⠄⠄⣸⠄⠄⠄⠄
-⣿⣿⣿⣶⣦⣬⣭⣭⣭⣝⣭⣭⣭⣴⣷⣦⡀⠄⠄⠄⠄⠄⠄⠠⠤⠿⠦⠤⠄⠄
-```
-
 ## Contribution
 
 Contributions are welcome! If you have ideas for new features, templates, or improvements, please open an issue or submit a pull request.
