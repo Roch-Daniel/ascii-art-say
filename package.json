@@ -1,6 +1,6 @@
 {
   "name": "ascii-art-say",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This npm library allows you to uniquely customize your project startup by displaying ASCII art and a custom welcome message. Turn your application's 'startup' into a special and fun moment, reflecting the personality of your project right from the beginning.",
   "main": "dist/src/index.js",
   "scripts": {
