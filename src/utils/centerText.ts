@@ -1,10 +1,10 @@
 /**
- * Centraliza um texto em um campo com largura fixa.
- * Se o texto for menor que a largura, adiciona espaços à esquerda e direita.
+ * Centers a text within a fixed-width field.
+ * If the text is shorter than the width, it adds spaces to the left and right.
  *
- * @param text - O texto a ser centralizado.
- * @param width - A largura do campo.
- * @returns O texto centralizado em um campo de largura 'width'.
+ * @param text - The text to be centered.
+ * @param width - The width of the field.
+ * @returns The text centered in a field of width 'width'.
  */
 export function centerText(text: string, width: number): string {
   const left = Math.floor((width - text.length) / 2);
