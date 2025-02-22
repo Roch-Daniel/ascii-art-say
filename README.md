@@ -1,7 +1,3 @@
-Below is an example README.md in English, focusing on how to use the library and its functionality without delving into the internal code details.
-
----
-
 # ascii-art-say
 
 **ascii-art-say** is a CLI library that displays custom ASCII art along with startup messages. When your project starts, the library automatically loads a configuration file from your project’s root and displays the ASCII art and messages as specified. If you don’t provide your own configuration, default settings will be used.
