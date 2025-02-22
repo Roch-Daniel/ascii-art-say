@@ -39,9 +39,7 @@ function loadAsciiArt(config: AsciiArtSayConfig): string {
         const asciiArt = fs.readFileSync(userArtPath, "utf8");
         return asciiArt.replace(/\r\n/g, "\n");
       } else {
-        console.error(
-          `Arquivo de arte ASCII não encontrado em: ${userArtPath}`
-        );
+        console.error(`File art ASCII not found in: ${userArtPath}`);
       }
     }
     const defaultAsciiArt = path.join(__dirname, defaultConfig.asciiArtPath);
